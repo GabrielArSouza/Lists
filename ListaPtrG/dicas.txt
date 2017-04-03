@@ -1,0 +1,6 @@
+#Dicas para trabalhar com ponteiro genérico
+
+1. converter o ptr void para 'unsigned char' (byte); para viabilizar aritmética de ponteiros
+2. Multiplicar o tamanho (em bytes) de um elemento para saltar:
+	V[i] = *(ptr + i*size)
+3. Utilizar funções de cópias de memória 
